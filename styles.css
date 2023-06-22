@@ -4,7 +4,8 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
-    --botao-azul-efeito: #4f9cfa;
+    --botao-azul-efeito: #0bfc02;
+    --efeito-clique: purple;
 }
 
 body {
@@ -150,7 +151,7 @@ body {
 }
 
 .lista__link a:active {
-    color: purple;
+    color: var(--efeito-clique);
 }
 
 .container__botao:hover {
